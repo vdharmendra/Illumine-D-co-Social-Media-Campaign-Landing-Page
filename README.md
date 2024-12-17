@@ -44,11 +44,11 @@
  <br />
 <span>Desktop Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/landing-page-ss1.pngg" width="180px"/>
+<img src="./img/landing-page-ss1.png" width="180px"/>
 <br />
-<img src="./img/landing-page-ss2.pngg" width="180px"/>
+<img src="./img/landing-page-ss2.png" width="180px"/>
 <br />
-<img src="./img/landing-page-ss3.pngg" width="180px"/>
+<img src="./img/landing-page-ss3.png" width="180px"/>
 </a>
 
 <span>Cover</span><br/>
