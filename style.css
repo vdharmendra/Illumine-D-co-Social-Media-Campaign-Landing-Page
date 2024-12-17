@@ -58,7 +58,7 @@ a{
     transition: all .5s;
 }
 a:hover{
-    color: #dd111c;
+    color: #a67a34;
     text-decoration: underline;
 }
 .logo img{
@@ -67,7 +67,7 @@ a:hover{
 .circle{
     width: 500px;
     height: 500px;
-    border: 2px solid #dd111c;
+    border: 2px solid #a67a34;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -139,7 +139,7 @@ a:hover{
     top: 50%;
     transform: translateY(-50%);
     padding-left: 30px;
-    border-left: 2px solid #5b7b94;
+    border-left: 2px solid #a67a34;
 }
 .slide-index{
     width: 70px;
@@ -147,7 +147,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dd111c;
+    background: #a67a34;
     margin: 30px 0;
     border-radius: 7px;
 }
@@ -163,7 +163,7 @@ h1{
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #dd111c;
+    color: #a67a34;
     line-height: 1.2;
 }
 h1.anim{
@@ -179,15 +179,16 @@ p{
     font-size: 18px;
     color: #4d4d4d;
     margin-top: 12px;
+    letter-spacing: 1px;
 }
 p.anim{
     animation-delay: .2s;
 }
 button{
-    background-color: #dd111c;
+    background-color: #a67a34;
     padding: 7px 15px;
     margin: 25px 0;
-    border: 1px solid #dd111c;
+    border: 1px solid #a67a34;
     border-radius: 6px;
     color: #fff;
     font-size: 16px;
@@ -201,9 +202,9 @@ button.anim{
 
 button:hover{
     background-color: #fff;
-    color: #dd111c;
+    color: #a67a34;
     letter-spacing: .2px;
-    box-shadow: 4px 4px 24px #f27e84;
+    box-shadow: 4px 4px 24px #e9cea1;
 }
 
 /* ANIMATION EFFECT */
