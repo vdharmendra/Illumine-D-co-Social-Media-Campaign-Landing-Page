@@ -1,0 +1,226 @@
+/* GOOGLE FONT LINK */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* RSTING DEFAULT CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* PAGE BODY STYLE */
+body{
+    font-family: sans-serif;
+    outline: none;
+    transition: all .5s;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-family: "Montserrat", serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.top{
+    width: 90%;
+    height: 70px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top.anim{
+    animation-delay: .2s;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: #a47678;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all .5s;
+}
+a:hover{
+    color: #dd111c;
+    text-decoration: underline;
+}
+.logo img{
+    width: 80%;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border: 2px solid #dd111c;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50% );
+    left: 83%;
+    /* opacity: 0; */
+    /* animation: moveleft 0.5s linear forwards;
+    animation-delay: .3s; */
+}
+.sm{
+    width: 30px;
+    height: 30px;
+    background-color: #c1c1c1;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    position: absolute;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+.sm1{
+    left: 105px;
+    top: 20px;
+    background-image: url(./img/a1-bg.jpg);
+}
+
+.sm2{
+    left: -2%;
+    top: 50%;
+    transform: scale(8);
+    background-image: url(./img/a2-bg.jpg);
+    background-color: transparent;
+}
+
+.sm3{
+    left: 21%;
+    top: 90%;
+    background-image: url(./img/a3-bg.jpg);
+}
+.img-box .img img{
+    width: 220px;
+}
+.img-box{
+    width: 400px;
+    position:absolute;
+    left: 62%;
+    z-index: 22;
+    top: 33%;
+}
+.img-box.anim{
+    animation-delay: .3s;
+}
+.img{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.img2, .img3{
+    transform: scale(0);
+}
+.content{
+    width: 50%;
+    height: 60%;
+    /* background: red; */
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    border-left: 2px solid #5b7b94;
+}
+.slide-index{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dd111c;
+    margin: 30px 0;
+    border-radius: 7px;
+}
+.slide-index.anim{
+    animation-delay: .3s;
+}
+.slide-index p{
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #dd111c;
+    line-height: 1.2;
+}
+h1.anim{
+    animation-delay: .2s;
+}
+h1 span{
+    color: #000 ;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+p{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #4d4d4d;
+    margin-top: 12px;
+}
+p.anim{
+    animation-delay: .2s;
+}
+button{
+    background-color: #dd111c;
+    padding: 7px 15px;
+    margin: 25px 0;
+    border: 1px solid #dd111c;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    
+    cursor: pointer;
+    transition: all .5s;
+}
+button.anim{
+    animation-delay: .3s;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #dd111c;
+    letter-spacing: .2px;
+    box-shadow: 4px 4px 24px #f27e84;
+}
+
+/* ANIMATION EFFECT */
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* @keyframes moveleft {
+    100%{
+        opacity: 1;
+        transform: translateY(-50%);
+    }
+} */
