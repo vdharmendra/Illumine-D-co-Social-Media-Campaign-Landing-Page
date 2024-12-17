@@ -31,25 +31,29 @@
 <br>
 <span>Desktop Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/desktop-design.gif" width="575px"/>
+<img src="./img/landing-page.gif" width="575px"/>
 </a>
 
  <br />
 <span>Desktop Desgin ui-ux Layout</span><br/>
 <a href="" target="_blank" >
-<img src="./img/desktop-ui-ux.png" width="475px"/>
+<img src="./img/.." width="475px"/>
 </a>
 <br />
 
  <br />
 <span>Desktop Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/desktop-design.png" width="475px"/>
+<img src="./img/landing-page-ss1.pngg" width="180px"/>
+<br />
+<img src="./img/landing-page-ss2.pngg" width="180px"/>
+<br />
+<img src="./img/landing-page-ss3.pngg" width="180px"/>
 </a>
 
 <span>Cover</span><br/>
 <a href="" target="_blank" >
-<img src="./img/cover.png" width="575px"/>
+<img src="./img/.." width="575px"/>
 </a>
 
 
