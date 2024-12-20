@@ -39,7 +39,7 @@
 <span>Desktop Desgin ui-ux Layout</span><br/>
 <a href="" target="_blank" >
 <img src="./img/ui-ux-layout-landing-page.gif" width="320px"/>
-
+<br />
 <img src="./img/ui-ux-layout-landing-page.png" width="320px"/>
 </a>
 <br />
