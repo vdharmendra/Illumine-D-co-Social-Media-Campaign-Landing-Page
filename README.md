@@ -18,6 +18,7 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
+  <li>JavaScript</li>
   <li>Bootstrap Icon</li>
   <li>ChatGPT [For Content]</li>
   <li>Font Awesome</li>
@@ -37,7 +38,9 @@
  <br />
 <span>Desktop Desgin ui-ux Layout</span><br/>
 <a href="" target="_blank" >
-<img src="./img/.." width="475px"/>
+<img src="./img/ui-ux-layout-landing-page.gif" width="320px"/>
+
+<img src="./img/ui-ux-layout-landing-page.png" width="320px"/>
 </a>
 <br />
 
@@ -53,7 +56,7 @@
 
 <span>Cover</span><br/>
 <a href="" target="_blank" >
-<img src="./img/.." width="575px"/>
+<img src="./img/cover.png" width="575px"/>
 </a>
 
 
